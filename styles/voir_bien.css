@@ -1,0 +1,93 @@
+/*Elements pour le fonctionnement javascript*/
+input {
+    padding: 2px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    outline: none; /* Retire les bordures appliquées par certains navigateurs*/
+	margin-left : 5px;
+	margin-right :5px;
+}
+input:focus {
+    border-color: rgba(82, 168, 236, 0.75);
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+}
+    
+.correct {
+    border-color: rgba(68, 191, 68, 0.75);
+}
+    
+.correct:focus {
+    border-color: rgba(68, 191, 68, 0.75);
+    box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+}
+    
+.incorrect {
+    border-color: rgba(191, 68, 68, 0.75);
+}
+    
+.incorrect:focus {
+    border-color: rgba(191, 68, 68, 0.75);
+    box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+}
+    
+.tooltip {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 2px 4px;
+    border: 1px solid #555;
+    background-color: #CCC;
+    border-radius: 4px;
+}
+/*fin des éléments pour le javascript*/
+#infos
+{
+	display : flex;
+	flex-direction : row;
+}
+#liste
+{
+		flex : 2;
+}
+#lebouton
+{
+	vertical-align : middle;
+	margin : auto;
+	flex :6;
+}
+#lebouton p
+{
+	vertical-align : middle;	
+}
+#vendre_cb
+{
+	margin-top : 30px;	
+}
+.grp_btn
+{	
+	/*margin-left : 10px;*/
+	vertical-align : middle;
+	text-align : center;
+	height : 150px;
+	margin-left : 20px;
+}
+#groupe_boutons
+{
+	display : flex;
+	justify-content : flex-start;
+	align-items : middle;
+	width : 80%;
+	height : 150px;
+	margin-top : 5px;
+	margin-left : 0px;
+	margin-right : 0px;
+}
+#groupe_boutons form input
+{
+	margin : 0px;
+}
+fieldset
+{
+	width :80%;
+	height : 150px;
+	margin : 0px;
+}

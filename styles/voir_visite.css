@@ -1,0 +1,23 @@
+.fiche_visite
+{
+	border : 1px solid black;
+	padding : 5px;
+	width : 60%;
+}
+.commentaire
+{
+	border : 1px solid black;
+	width : 30%;
+	padding : 10px;
+	background-color :white;
+	margin : 10px;
+}
+.btns
+{
+	display : flex;
+}
+.btns p
+{
+	margin-right : 5px;
+	margin-left : 5px;
+}

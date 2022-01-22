@@ -1,0 +1,52 @@
+body
+{
+	background-color : lightblue;
+}
+h1
+{
+	text-align : center;
+}
+
+#corps
+{
+	margin-left : 30px;
+}
+.souligne
+{
+	text-decoration : underline;
+	font-weight : bold;
+}
+strong
+{
+	color : red;
+	font-weight : bold;
+}
+.fond
+{
+	background-color :lightgrey;
+}
+.bouton_lien
+{
+	padding :5px;
+	border : 1px black solid;
+	text-decoration : none;
+	color :white;
+	border-radius : 3px;
+	background-color : blue;
+}
+.bouton_lien:hover
+{
+	background-color : grey;
+	color :red;
+}
+#lienretour
+{
+	margin-top : 40px;
+}
+footer
+{
+	margin-top : 50px;
+	text-align : left;
+	padding-top : 15px;
+	background:  url('../images/separateur.png') repeat-x top;
+}

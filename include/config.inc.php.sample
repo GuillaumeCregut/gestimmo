@@ -1,0 +1,8 @@
+<?php
+	$database="YOUR_DB_NAME";
+	$username="YOUR_DB_USER";
+	$password="YOUR_DB_PASSWORD";
+	$serveur='YOUR_DB_HOST';
+	$Variable_Piece=2;
+	$TVA=20;
+	$RSI=25;

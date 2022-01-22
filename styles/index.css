@@ -1,0 +1,63 @@
+@keyframes boutons
+{
+	50% {transform : rotate(25deg);}
+	100%{transform : rotate(0deg);}
+}
+hr{
+  margin : auto;
+  line-height: 1;
+  color : red;
+  width : 60%;
+}
+a
+{
+	text-decoration : none;
+	color : black;
+}
+a:hover
+{
+	color : red;
+	font-weight : bold;
+}
+.img_menu
+{
+	border : none;
+	transition-property : background;
+	transition : 10ms;
+	padding : 10px;
+}
+.img_menu:hover
+{
+	background-image:radial-gradient(blue, white);
+	border-radius : 30px;
+	padding : 10px;
+	animation : boutons 1s;
+}
+#navigation
+{
+	border : 4px groove black;
+	width : 40%;
+	margin : auto;
+	text-align : left;
+	background-color : white;
+}
+.titre
+{
+	padding-left :10px;
+	text-decoration : underline;
+	font-weight : bold;
+}
+ul
+{
+	list-style-type : none;
+	display :flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align : center;
+}
+.ligne_menu
+{
+	display :flex;
+	flex-direction : column;
+	justify-content: space-between;
+}

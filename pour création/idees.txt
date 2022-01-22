@@ -1,0 +1,16 @@
+
+changer date dans voir visite
+
+Corriger faute dans controle de session : à->a !!
+
+
+
+page voir vendeur, modifier vendeur OK. Reste le CSS à compléter et la mise en page.
+Page vente OK
+Page ajout ville (formulaire et ajout): reste le CSS à compléter et la mise en page.
+Page modification ville (formulaire et ajout) : reste mise en page et CSS
+page création acheteur : reste mise en page et CSS
+Page voir acheteur et voir bien : reste mise en page et CSS
+Page ajouter vendeur (formulaire et ajout) : reste mise en page et CSS
+Page ajouter bien (formulaire et ajout) : reste mise en page et CSS
+Perfectionner les systèmes de retour page précédente.

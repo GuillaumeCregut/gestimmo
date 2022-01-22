@@ -1,0 +1,25 @@
+#infos
+{
+	display : flex;
+	flex-direction : row;
+}
+#liste
+{
+		flex : 2;
+}
+#lebouton
+{
+	vertical-align : middle;
+	margin : auto;
+	flex :7;
+}
+#lebouton p
+{
+	vertical-align : middle;	
+}
+#bien_vente
+{
+	border : groove 3px black;
+	text-align : center;
+	width : 15%;
+}

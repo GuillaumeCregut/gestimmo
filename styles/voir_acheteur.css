@@ -1,0 +1,9 @@
+#groupe
+{
+	display : flex;
+	flex-direction : row;
+}
+#groupe p
+{
+	margin-left :30px;
+}
