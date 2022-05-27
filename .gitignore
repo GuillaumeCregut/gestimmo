@@ -1,5 +1,5 @@
 include/config.inc.php
-include/old/
+include/old
 templates_c
 travail
 Nouveau_dossier
