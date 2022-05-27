@@ -14,7 +14,7 @@
 	{if isset($EtatAch)}
 	<p>{$EtatAch}.</p>
 	{/if}
-	<p id="lienretour"><><a href="index.php">Retour &agrave; l'accueil</a></p>
+	<p id="lienretour"><a href="index.php">Retour &agrave; l'accueil</a></p>
 	<footer>
 		<p id="copyright"><img src="images/logo-mini.gif" alt="logo"> Copyright &copy; 2018  Editiel 98, Guillaume Cr&eacute;gut. Tous droits r&eacute;serv&eacute;s.</p>
 	</footer>
